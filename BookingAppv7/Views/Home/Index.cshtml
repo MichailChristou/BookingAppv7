@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<p class="text-center"> Select your User's Type'</p>
+<div class="text-center">
+<input type="submit" onclick="location.href='@Url.Action("Index","Movies2")'" value="Use as Customer" />
+<input type="submit" onclick="location.href='@Url.Action("Index","Movies1")'" value="Use as Content-Admin" />
+<input type="submit" onclick="location.href='@Url.Action("Index","Movies1")'" value="Use as Admin" />
+</div>
